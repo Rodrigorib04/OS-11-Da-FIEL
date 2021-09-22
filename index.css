@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagens/tf.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+   text-align: center;
+ color: white;
+ font-size: 35px;
+ letter-spacing: 1px;
+ cursor: pointer;
+ text-shadow: 20px 20px 20px rgb(253, 245, 245) insert ;
+
+}
+
+span {
+    color:black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+
+}
+nav a{
+    background-color: black;
+    color: white;
+    padding: 10px 55px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+border-radius: 250px;
+display: inline-block;
+font-weight: bold;
+transition: transifor .4s;
+text-decoration: none;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    transition: 20ms;
+    color:black;
+    background-color: white;
+
+}
+
+.share{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    display: flex;
+    flex-wrap:nowrap ;
+    justify-content: flex-start;
+    align-items: center;
+}
+.share p{
+  font-size:20px;
+  color:rgb(251, 248, 248);
+  margin-right: 80px;
+}
+
+.share .social a{
+    font-size: 25px;
+    align-items: center;
+display: inline-block;
+color:red;
+margin-right: 30px;
+transition: transform .4s;
+}
+  .share .social :hover{
+    transform: scale(2.0);
+}
+
+
+
+
+.rodape{
+    text-align: center;
+    margin-top:200px ;
+    text-shadow: 20px 20px 20px black;
+    padding: 0;
+    box-shadow: 20px 20px 20px white, inset  -110px 100px 100px white;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
